@@ -15,7 +15,6 @@
 }    
 
 .page{
-  min-width: 1280px;
   background-color: #2A2C2F;
   font-family: Inter;
   font-weight: normal;
@@ -23,22 +22,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px){
-  .page {
-    min-width: 1024px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-  .page {
-    min-width: 768px;
-  }
-}
-
-@media screen and (max-width: 767px){
-  .page {
-    min-width: 320px;
-  }
 }
