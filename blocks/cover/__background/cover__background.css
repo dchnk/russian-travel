@@ -1,17 +1,8 @@
-.cover__background{ 
-    display: flex;
-    flex-direction: column;    
-    text-align: center;
-    justify-content: center;
-    height: 100%;
-    color: #FFFFFF;
-    background-color: rgba(42, 44, 47, 0.3);
-    cursor: pointer;
-    transition: 0.3s;
-    text-decoration: none;
+.cover__background{
+    grid-area: 1 / 1;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    object-fit: cover;
 }
 
-.cover__background:hover{
-    background-color: rgba(42, 44, 47, 0.8);
-}
-    

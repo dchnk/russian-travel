@@ -1,0 +1,26 @@
+.cover__link{
+    width: 100%;
+    max-width: 1184px;
+    margin: 92px auto 0;
+    
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-columns: 100%;
+    position: relative;    
+    text-decoration: none;
+}
+
+.cover__link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background: #000;
+    opacity: 0.3;
+    z-index: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.cover__link:hover:before {
+    opacity: 0.8;
+}
