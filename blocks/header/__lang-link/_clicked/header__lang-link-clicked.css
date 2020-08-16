@@ -1,7 +1,0 @@
-.header__lang-link-clicked{
-    text-decoration-line: underline;
-}
-
-.header__lang-link-clicked:hover{
-  cursor: pointer;
-}

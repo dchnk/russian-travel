@@ -12,7 +12,15 @@
   url("../../fonts/Inter-Bold.woff") format("woff");
   font-weight: bold;
   font-style: bold;
-}    
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../fonts/Inter-Black.woff2") format("woff2"),
+  url("../../fonts/Inter-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: 900;
+}   
 
 .page{
   background-color: #2A2C2F;

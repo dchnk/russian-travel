@@ -1,8 +1,9 @@
 .cover__background{
     grid-area: 1 / 1;
+    background-image: url(../../../images/__background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
-    height: auto;
-    min-height: 100%;
-    object-fit: cover;
+    padding-bottom: 62.5%;
 }
-
