@@ -5,6 +5,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
+    max-width: 560px;
 }
 
   
@@ -13,5 +14,7 @@
         font-size: 32px;
         line-height: 35px;
         margin: 0 0 16px;
+        max-width: 288px;
+
     }
   }
